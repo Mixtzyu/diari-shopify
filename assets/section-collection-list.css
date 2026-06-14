@@ -59,3 +59,38 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+/* Diari category grids */
+.section-collection-list .collection-list {
+  row-gap: 1.2rem;
+}
+
+.section-collection-list .title-wrapper-with-link {
+  margin-bottom: 2rem;
+}
+
+.section-collection-list .collection-list-title {
+  letter-spacing: 0;
+}
+
+.section-collection-list .collection-card-wrapper .card__inner {
+  background: #ffffff;
+}
+
+.section-collection-list .collection-card-wrapper .card__media {
+  background: var(--diari-soft, #f7f7f7);
+}
+
+.section-collection-list .collection-card-wrapper .card__heading a {
+  text-decoration: none;
+}
+
+.section-collection-list .collection-card-wrapper .icon-wrap {
+  color: rgb(var(--diari-red, 204, 0, 0));
+}
+
+@media screen and (min-width: 750px) {
+  .section-collection-list .collection-list {
+    row-gap: 1.6rem;
+  }
+}

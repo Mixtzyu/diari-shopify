@@ -10,136 +10,84 @@
 {
   "sections": {
     "categories": {
-      "type": "multicolumn",
+      "type": "collection-list",
       "blocks": {
         "kozmetike": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Kozmetikë",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/kozmetike"
+            "collection": "kozmetike"
           }
         },
         "shtepi_kuzhine": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Shtëpi & Kuzhinë",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/shtepi-kuzhine"
+            "collection": "shtepi-kuzhine"
           }
         },
         "tekstil": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Tekstil",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/tekstil"
+            "collection": "tekstil"
           }
         },
         "lodra": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Lodra",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/lodra"
+            "collection": "lodra"
           }
         },
         "vegla_pune": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Vegla Pune",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/vegla-pune"
+            "collection": "vegla-pune"
           }
         },
         "kopsht_oborr": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Kopsht & Oborr",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/kopsht-oborr"
+            "collection": "kopsht-oborr"
           }
         },
         "shkolle_zyre": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Shkollë & Zyrë",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/shkolle-zyre"
+            "collection": "shkolle-zyre"
           }
         },
         "bizhuteri_aksesore": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Bizhuteri & Aksesorë",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/bizhuteri-aksesore"
+            "collection": "bizhuteri-aksesore"
           }
         },
         "dekor_shtepi": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Dekor & Shtëpi",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/dekor-shtepi"
+            "collection": "dekor-shtepi"
           }
         },
         "oferta": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Oferta",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/oferta"
+            "collection": "oferta"
           }
         },
         "produkte_te_reja": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Produkte të Reja",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/produkte-te-reja"
+            "collection": "produkte-te-reja"
           }
         },
         "sezonale": {
-          "type": "column",
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Sezonale",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/sezonale"
+            "collection": "sezonale"
           }
         },
-        "me_te_shiturat": {
-          "type": "column",
+        "me_te_shitura": {
+          "type": "featured_collection",
           "settings": {
-            "image": "",
-            "title": "Më të Shiturat",
-            "text": "",
-            "link_label": "Shiko",
-            "link": "/collections/me-te-shiturat"
+            "collection": "me-te-shitura"
           }
         }
       },
@@ -156,19 +104,15 @@
         "oferta",
         "produkte_te_reja",
         "sezonale",
-        "me_te_shiturat"
+        "me_te_shitura"
       ],
       "settings": {
         "title": "Kategoritë",
         "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
+        "image_ratio": "square",
         "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
         "color_scheme": "scheme-1",
+        "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 40,

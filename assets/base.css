@@ -3596,3 +3596,195 @@ details-disclosure > details {
   }
 }
 
+/* Diari brand polish */
+:root {
+  --diari-red: 204, 0, 0;
+  --diari-red-hex: #cc0000;
+  --diari-border: #e8e8e8;
+  --diari-soft: #f7f7f7;
+}
+
+*:focus-visible {
+  outline-color: rgba(var(--diari-red), 0.75);
+}
+
+.focused {
+  outline-color: rgba(var(--diari-red), 0.75);
+}
+
+.link,
+.customer a,
+.underlined-link,
+.rte a {
+  color: rgba(var(--diari-red), 0.92);
+}
+
+.color-scheme-5 .link,
+.color-scheme-5 .underlined-link,
+.color-scheme-5 .rte a {
+  color: currentColor;
+}
+
+.button,
+.shopify-challenge__button,
+.customer button {
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  transition:
+    background-color var(--duration-short) ease,
+    border-color var(--duration-short) ease,
+    color var(--duration-short) ease,
+    transform var(--duration-short) ease;
+}
+
+.button:not([disabled]):hover,
+.shopify-challenge__button:hover,
+.customer button:hover {
+  transform: translateY(-0.1rem);
+}
+
+.button--secondary {
+  background-color: transparent;
+}
+
+.header__active-menu-item,
+.header__menu-item:hover,
+.menu-drawer__menu-item:hover,
+.menu-drawer__menu-item--active {
+  color: rgb(var(--diari-red));
+}
+
+.header__active-menu-item {
+  text-decoration-color: rgb(var(--diari-red));
+}
+
+.cart-count-bubble {
+  background-color: rgb(var(--diari-red));
+  color: #ffffff;
+}
+
+.badge {
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+}
+
+.field__input:focus,
+.select__select:focus,
+.customer .field input:focus,
+.customer select:focus,
+.localization-form__select:focus.localization-form__select:after {
+  box-shadow: 0 0 0 0.1rem rgba(var(--diari-red), 0.55);
+}
+
+.title,
+.collection-list-title,
+.collection__title .title,
+.main-page-title {
+  letter-spacing: 0;
+}
+
+/* Diari homepage polish */
+#MainContent > .shopify-section[id$='__hero'] .rich-text {
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.18);
+}
+
+#MainContent > .shopify-section[id$='__hero'] .rich-text__blocks {
+  max-width: 76rem;
+}
+
+#MainContent > .shopify-section[id$='__hero'] .rich-text__heading {
+  margin-bottom: 0.4rem;
+}
+
+#MainContent > .shopify-section[id$='__hero'] .rich-text__text {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7rem;
+  line-height: 1.55;
+}
+
+#MainContent > .shopify-section[id$='__hero'] .rich-text__buttons {
+  margin-top: 2.4rem;
+}
+
+#MainContent > .shopify-section[id$='__hero'] .rich-text__buttons .button {
+  min-width: 18rem;
+}
+
+#MainContent > .shopify-section[id$='__store_intro'] .rich-text {
+  border-bottom: 0.1rem solid var(--diari-border);
+}
+
+#MainContent > .shopify-section[id$='__store_intro'] .rich-text__blocks {
+  max-width: 86rem;
+}
+
+#MainContent > .shopify-section[id$='__store_intro'] .rich-text__heading {
+  color: rgb(var(--diari-red));
+}
+
+#MainContent > .shopify-section[id$='__store_intro'] .rich-text__text {
+  color: rgba(18, 18, 18, 0.78);
+}
+
+#MainContent > .shopify-section[id$='__categories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__new_products'] .collection__title,
+#MainContent > .shopify-section[id$='__offers'] .collection__title,
+#MainContent > .shopify-section[id$='__best_sellers'] .collection__title {
+  margin-bottom: 1.8rem;
+}
+
+#MainContent > .shopify-section[id$='__categories'] .collection-list-title,
+#MainContent > .shopify-section[id$='__new_products'] .collection__title .title,
+#MainContent > .shopify-section[id$='__offers'] .collection__title .title,
+#MainContent > .shopify-section[id$='__best_sellers'] .collection__title .title,
+#MainContent > .shopify-section[id$='__trust_info'] .title {
+  font-weight: 700;
+}
+
+#MainContent > .shopify-section[id$='__new_products'] .collection__description,
+#MainContent > .shopify-section[id$='__offers'] .collection__description,
+#MainContent > .shopify-section[id$='__best_sellers'] .collection__description {
+  max-width: 62rem;
+  margin-top: 0.6rem;
+  color: rgba(18, 18, 18, 0.68);
+}
+
+#MainContent > .shopify-section[id$='__categories'] .collection-list {
+  row-gap: 1.2rem;
+}
+
+#MainContent > .shopify-section[id$='__trust_info'] .multicolumn-card {
+  border: 0.1rem solid var(--diari-border);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 1.6rem rgba(18, 18, 18, 0.04);
+}
+
+#MainContent > .shopify-section[id$='__trust_info'] .multicolumn-list h3 {
+  color: rgb(var(--diari-red));
+  font-weight: 700;
+}
+
+#MainContent > .shopify-section[id$='__manual_order_note'] .rich-text {
+  border-top: 0.1rem solid var(--diari-border);
+}
+
+@media screen and (max-width: 749px) {
+  #MainContent > .shopify-section[id$='__hero'] .rich-text__text {
+    font-size: 1.55rem;
+  }
+
+  #MainContent > .shopify-section[id$='__hero'] .rich-text__buttons {
+    max-width: 100%;
+  }
+
+  #MainContent > .shopify-section[id$='__hero'] .rich-text__buttons .button {
+    min-width: 100%;
+  }
+
+  #MainContent > .shopify-section[id$='__categories'] .collection-list {
+    row-gap: 1rem;
+  }
+}

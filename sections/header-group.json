@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Mirë se vini në Diari 1€",
             "link": ""
           }
         }
@@ -28,7 +28,7 @@
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -53,28 +53,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "diari_home_hero_JQ63JU": {
-      "type": "diari-home-hero",
-      "name": "Diari Hero",
-      "settings": {}
-    },
-    "diari_category_grid_EeGnpE": {
-      "type": "diari-category-grid",
-      "name": "Diari Category Grid",
-      "settings": {}
-    },
-    "diari_trust_bar_8PAVDw": {
-      "type": "diari-trust-bar",
-      "name": "Diari Trust Bar",
-      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "diari_home_hero_JQ63JU",
-    "diari_category_grid_EeGnpE",
-    "diari_trust_bar_8PAVDw"
+    "header"
   ]
 }

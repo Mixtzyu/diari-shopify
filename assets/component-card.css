@@ -593,3 +593,106 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+/* Diari catalog card polish */
+.product-card-wrapper .card,
+.collection-card-wrapper .card {
+  background: #ffffff;
+  border-radius: 8px;
+  transition:
+    border-color var(--duration-short) ease,
+    box-shadow var(--duration-short) ease,
+    transform var(--duration-short) ease;
+}
+
+.product-card-wrapper .card:hover,
+.collection-card-wrapper .card:hover {
+  border-color: rgba(var(--diari-red, 204, 0, 0), 0.24);
+  box-shadow: 0 8px 22px rgba(18, 18, 18, 0.08);
+  transform: translateY(-0.15rem);
+}
+
+.product-card-wrapper .card__inner,
+.collection-card-wrapper .card__inner {
+  overflow: hidden;
+}
+
+.product-card-wrapper .card--standard .card__inner,
+.collection-card-wrapper .card--standard .card__inner {
+  background: #ffffff;
+}
+
+.product-card-wrapper .card--standard .card__inner:after,
+.collection-card-wrapper .card--standard .card__inner:after {
+  border-color: rgba(18, 18, 18, 0.08);
+}
+
+.product-card-wrapper .card__media,
+.collection-card-wrapper .card__media {
+  background: #ffffff;
+}
+
+.product-card-wrapper .card__media .media img {
+  background: #ffffff;
+  object-fit: contain;
+}
+
+.collection-card-wrapper .card__media .media img {
+  object-fit: cover;
+}
+
+.product-card-wrapper .card__information {
+  padding: 1rem 0.9rem 1.2rem;
+}
+
+.collection-card-wrapper .card__information {
+  padding: 1.3rem 1.2rem 1.5rem;
+}
+
+.product-card-wrapper .card__heading,
+.collection-card-wrapper .card__heading {
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+.product-card-wrapper .card__heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.collection-card-wrapper .card__heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.product-card-wrapper .card-information {
+  margin-top: 0.6rem;
+}
+
+.product-card-wrapper .card-information > * + * {
+  margin-top: 0.5rem;
+}
+
+.product-card-wrapper .quick-add {
+  margin-top: 0.4rem;
+}
+
+@media screen and (min-width: 750px) {
+  .product-card-wrapper .card__information {
+    padding: 1.2rem 1.1rem 1.4rem;
+  }
+
+  .collection-card-wrapper .card__information {
+    padding: 1.5rem 1.4rem 1.7rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .product-card-wrapper .card__heading {
+    font-size: 1.32rem;
+  }
+
+  .collection-card-wrapper .card__heading {
+    font-size: 1.45rem;
+  }
+}
