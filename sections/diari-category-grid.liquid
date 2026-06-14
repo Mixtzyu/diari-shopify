@@ -1,0 +1,103 @@
+<section class="diari-category-section">
+  <div class="diari-category-header">
+    <p>Blej sipas kategorisë</p>
+    <h2>Kategoritë kryesore</h2>
+  </div>
+
+  <div class="diari-category-grid">
+    <a href="/collections/kozmetike" class="diari-category-card">💄<span>Kozmetikë</span></a>
+    <a href="/collections/shtepi-kuzhine" class="diari-category-card">🍽️<span>Shtëpi & Kuzhinë</span></a>
+    <a href="/collections/tekstil" class="diari-category-card">🧺<span>Tekstil</span></a>
+    <a href="/collections/lodra" class="diari-category-card">🧸<span>Lodra</span></a>
+    <a href="/collections/vegla-pune" class="diari-category-card">🛠️<span>Vegla Pune</span></a>
+    <a href="/collections/shkolle-zyre" class="diari-category-card">🎒<span>Shkollë & Zyrë</span></a>
+    <a href="/collections/bizhuteri" class="diari-category-card">💍<span>Bizhuteri</span></a>
+    <a href="/collections/oferta" class="diari-category-card">🔥<span>Oferta</span></a>
+  </div>
+</section>
+
+<style>
+  .diari-category-section {
+    padding: 60px 6%;
+    background: #ffffff;
+  }
+
+  .diari-category-header {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .diari-category-header p {
+    color: #cc0000;
+    font-weight: 700;
+    margin: 0 0 8px;
+  }
+
+  .diari-category-header h2 {
+    font-size: clamp(30px, 4vw, 46px);
+    margin: 0;
+    color: #111;
+    font-weight: 800;
+  }
+
+  .diari-category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .diari-category-card {
+    background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    border-radius: 16px;
+    padding: 28px 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font-weight: 800;
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+
+  .diari-category-card:hover {
+    background: #cc0000;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(204, 0, 0, 0.18);
+  }
+
+  .diari-category-card span {
+    display: block;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 900px) {
+    .diari-category-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 520px) {
+    .diari-category-section {
+      padding: 45px 18px;
+    }
+
+    .diari-category-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Diari Category Grid",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Diari Category Grid"
+    }
+  ]
+}
+{% endschema %}
