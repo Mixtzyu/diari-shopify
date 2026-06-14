@@ -377,10 +377,10 @@
   "order": [
     "hero",
     "store_intro",
-    "categories",
     "new_products",
     "offers",
     "best_sellers",
+    "categories",
     "trust_info",
     "manual_order_note"
   ]
