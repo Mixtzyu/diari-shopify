@@ -9,14 +9,252 @@
  */
 {
   "sections": {
-    "featured_collection": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Diari 1€",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Produkte të përditshme për shtëpi, familje dhe punë — të organizuara në një vend.</p>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shiko Produktet",
+            "button_link": "/collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "Shiko Kategoritë",
+            "button_link_2": "/collections",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "categories": {
+      "type": "multicolumn",
+      "blocks": {
+        "kozmetike": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Kozmetikë",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/kozmetike"
+          }
+        },
+        "shtepi_kuzhine": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Shtëpi & Kuzhinë",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/shtepi-kuzhine"
+          }
+        },
+        "tekstil": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Tekstil",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/tekstil"
+          }
+        },
+        "lodra": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Lodra",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/lodra"
+          }
+        },
+        "vegla_pune": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Vegla Pune",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/vegla-pune"
+          }
+        },
+        "kopsht_oborr": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Kopsht & Oborr",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/kopsht-oborr"
+          }
+        },
+        "shkolle_zyre": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Shkollë & Zyrë",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/shkolle-zyre"
+          }
+        },
+        "bizhuteri_aksesore": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Bizhuteri & Aksesorë",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/bizhuteri-aksesore"
+          }
+        },
+        "dekor_shtepi": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Dekor & Shtëpi",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/dekor-shtepi"
+          }
+        },
+        "oferta": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Oferta",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/oferta"
+          }
+        },
+        "produkte_te_reja": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Produkte të Reja",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/produkte-te-reja"
+          }
+        },
+        "sezonale": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Sezonale",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/sezonale"
+          }
+        },
+        "me_te_shiturat": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Më të Shiturat",
+            "text": "",
+            "link_label": "Shiko",
+            "link": "/collections/me-te-shiturat"
+          }
+        }
+      },
+      "block_order": [
+        "kozmetike",
+        "shtepi_kuzhine",
+        "tekstil",
+        "lodra",
+        "vegla_pune",
+        "kopsht_oborr",
+        "shkolle_zyre",
+        "bizhuteri_aksesore",
+        "dekor_shtepi",
+        "oferta",
+        "produkte_te_reja",
+        "sezonale",
+        "me_te_shiturat"
+      ],
+      "settings": {
+        "title": "Bli sipas kategorisë",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
+    "store_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gjithçka praktike për përditshmërinë",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diari 1€ sjell produkte të thjeshta, të dobishme dhe të përballueshme për shtëpi, kuzhinë, shkollë, zyrë, fëmijë dhe oborr. Zgjidh kategorinë që të duhet dhe shfleto lehtë produktet tona.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
+    "new_products": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "produkte-te-reja",
         "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
+        "title": "Produkte të Reja",
+        "heading_size": "h1",
+        "description": "<p>Zbuloni artikujt më të fundit të shtuar në dyqan.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
@@ -33,12 +271,173 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "offers": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "oferta",
+        "products_to_show": 8,
+        "title": "Oferta",
+        "heading_size": "h1",
+        "description": "<p>Shfletoni produktet me çmime dhe zgjedhje të favorshme.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "me-te-shiturat",
+        "products_to_show": 8,
+        "title": "Më të Shiturat",
+        "heading_size": "h1",
+        "description": "<p>Produktet që klientët tanë i kërkojnë më shpesh.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "trust_info": {
+      "type": "multicolumn",
+      "blocks": {
+        "organized": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Kategori të qarta",
+            "text": "<p>Produktet janë të ndara sipas nevojave të përditshme, që t’i gjeni më shpejt.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "affordable": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Çmime të përballueshme",
+            "text": "<p>Zgjedhje praktike për familjen, shtëpinë, shkollën dhe punën.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "local": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Shërbim i thjeshtë",
+            "text": "<p>Shfletoni katalogun online dhe kontaktoni dyqanin për pyetje ose porosi.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "organized",
+        "affordable",
+        "local"
+      ],
+      "settings": {
+        "title": "Pse Diari 1€?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "manual_order_note": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keni pyetje për një produkt?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ky katalog është krijuar për shfletim të lehtë. Për disponueshmëri, detaje ose porosi, na kontaktoni direkt dhe ne do t’ju ndihmojmë.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Na Kontaktoni",
+            "button_link": "/pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "featured_collection"
+    "hero",
+    "categories",
+    "store_intro",
+    "new_products",
+    "offers",
+    "best_sellers",
+    "trust_info",
+    "manual_order_note"
   ]
 }
