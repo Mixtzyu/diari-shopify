@@ -1,0 +1,56 @@
+{%- liquid
+  assign label_text = text | default: ''
+  assign normalized_label = label_text | strip | downcase
+
+  if sort_value != blank
+    case sort_value
+      when 'manual'
+        echo 'E rekomanduar'
+      when 'best-selling'
+        echo 'Më të shiturat'
+      when 'title-ascending'
+        echo 'Emri: A-Z'
+      when 'title-descending'
+        echo 'Emri: Z-A'
+      when 'price-ascending'
+        echo 'Çmimi: nga më i ulëti'
+      when 'price-descending'
+        echo 'Çmimi: nga më i larti'
+      when 'created-ascending'
+        echo 'Më të vjetrat'
+      when 'created-descending'
+        echo 'Më të rejat'
+      when 'relevance'
+        echo 'Më relevante'
+      else
+        echo label_text
+    endcase
+  else
+    case normalized_label
+      when 'availability'
+        echo 'Disponueshmëria'
+      when 'price'
+        echo 'Çmimi'
+      when 'product type'
+        echo 'Lloji i produktit'
+      when 'vendor'
+        echo 'Marka'
+      when 'brand'
+        echo 'Marka'
+      when 'category'
+        echo 'Kategoria'
+      when 'color'
+        echo 'Ngjyra'
+      when 'size'
+        echo 'Madhësia'
+      when 'in stock'
+        echo 'Në stok'
+      when 'out of stock'
+        echo 'Nuk ka stok'
+      when 'on sale'
+        echo 'Në ofertë'
+      else
+        echo label_text
+    endcase
+  endif
+-%}

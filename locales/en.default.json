@@ -37,16 +37,16 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Vazhdo blerjen",
     "pagination": {
-      "label": "Pagination",
-      "page": "Page {{ number }}",
-      "next": "Next page",
-      "previous": "Previous page"
+      "label": "Faqëzimi",
+      "page": "Faqja {{ number }}",
+      "next": "Faqja tjetër",
+      "previous": "Faqja e mëparshme"
     },
     "search": {
-      "search": "Search",
-      "reset": "Clear search term"
+      "search": "Kërko",
+      "reset": "Pastro kërkimin"
     },
     "cart": {
       "view": "View cart ({{ count }})",
@@ -68,22 +68,22 @@
   },
   "newsletter": {
     "label": "Email",
-    "success": "Thanks for subscribing",
-    "button_label": "Subscribe"
+    "success": "Faleminderit për regjistrimin",
+    "button_label": "Regjistrohu"
   },
   "accessibility": {
-    "skip_to_text": "Skip to content",
-    "skip_to_product_info": "Skip to product information",
-    "close": "Close",
-    "unit_price_separator": "per",
-    "vendor": "Vendor:",
-    "error": "Error",
-    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "skip_to_text": "Kalo te përmbajtja",
+    "skip_to_product_info": "Kalo te informacioni i produktit",
+    "close": "Mbyll",
+    "unit_price_separator": "për",
+    "vendor": "Marka:",
+    "error": "Gabim",
+    "refresh_page": "Zgjedhja rifreskon faqen.",
     "link_messages": {
       "new_window": "Opens in a new window.",
       "external": "Opens external website."
     },
-    "loading": "Loading...",
+    "loading": "Duke u ngarkuar...",
     "total_reviews": "total reviews",
     "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
     "collapsible_content_title": "Collapsible content",
@@ -115,16 +115,16 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
-      "choose_options": "Choose options",
-      "choose_product_options": "Choose options for {{ product_name }}",
-      "description": "Description",
-      "inventory_in_stock": "In stock",
-      "inventory_in_stock_show_count": "{{ quantity }} in stock",
-      "inventory_low_stock": "Low stock",
-      "inventory_low_stock_show_count": "Low stock: {{ quantity }} left",
-      "inventory_out_of_stock": "Out of stock",
-      "inventory_out_of_stock_continue_selling": "In stock",
+      "add_to_cart": "Shto në shportë",
+      "choose_options": "Zgjidh opsionet",
+      "choose_product_options": "Zgjidh opsionet për {{ product_name }}",
+      "description": "Përshkrimi",
+      "inventory_in_stock": "Në stok",
+      "inventory_in_stock_show_count": "{{ quantity }} në stok",
+      "inventory_low_stock": "Stok i ulët",
+      "inventory_low_stock_show_count": "Stok i ulët: {{ quantity }} kanë mbetur",
+      "inventory_out_of_stock": "Nuk ka stok",
+      "inventory_out_of_stock_continue_selling": "Në stok",
       "sku": "SKU",
       "on_sale": "Sale",
       "product_variants": "Product variants",
@@ -140,18 +140,18 @@
       },
       "nested_label": "{{ title }} for {{ parent_title }}",
       "quantity": {
-        "label": "Quantity",
-        "input_label": "Quantity for {{ product }}",
-        "increase": "Increase quantity for {{ product }}",
-        "decrease": "Decrease quantity for {{ product }}",
-        "minimum_of": "Minimum of {{ quantity }}",
-        "maximum_of": "Maximum of {{ quantity }}",
-        "multiples_of": "Increments of {{ quantity }}",
+        "label": "Sasia",
+        "input_label": "Sasia për {{ product }}",
+        "increase": "Rrit sasinë për {{ product }}",
+        "decrease": "Ul sasinë për {{ product }}",
+        "minimum_of": "Minimumi {{ quantity }}",
+        "maximum_of": "Maksimumi {{ quantity }}",
+        "multiples_of": "Me hapa prej {{ quantity }}",
         "min_of": "Min {{ quantity }}",
         "max_of": "Max {{ quantity }}",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in cart",
-        "in_cart_aria_label": "Quantity ({{ quantity }} in cart)",
-        "note": "View quantity rules"
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> në shportë",
+        "in_cart_aria_label": "Sasia ({{ quantity }} në shportë)",
+        "note": "Shiko rregullat e sasisë"
       },
       "volume_pricing": {
         "title": "Volume Pricing",
@@ -170,19 +170,19 @@
         "refresh": "Refresh"
       },
       "price": {
-        "from_price_html": "From {{ price }}",
-        "regular_price": "Regular price",
-        "sale_price": "Sale price",
-        "unit_price": "Unit price"
+        "from_price_html": "Nga {{ price }}",
+        "regular_price": "Çmimi i rregullt",
+        "sale_price": "Çmimi me zbritje",
+        "unit_price": "Çmimi për njësi"
       },
-      "share": "Share this product",
-      "sold_out": "Sold out",
-      "unavailable": "Unavailable",
-      "vendor": "Vendor",
-      "value_unavailable": "{{ option_value }} - Unavailable",
-      "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
+      "share": "Ndaje këtë produkt",
+      "sold_out": "I shitur",
+      "unavailable": "I padisponueshëm",
+      "vendor": "Marka",
+      "value_unavailable": "{{ option_value }} - I padisponueshëm",
+      "variant_sold_out_or_unavailable": "Varianti është i shitur ose i padisponueshëm",
       "video_exit_message": "{{ title }} opens full screen video in same window.",
-      "view_full_details": "View full details",
+      "view_full_details": "Shiko detajet e plota",
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "taxes_included": "Taxes included.",
@@ -194,66 +194,66 @@
       "label": "Media gallery"
     },
     "facets": {
-      "filter_and_operator_subtitle": "Match all",
-      "apply": "Apply",
-      "clear": "Clear",
-      "clear_all": "Remove all",
-      "from": "From",
-      "filter_and_sort": "Filter and sort",
-      "filter_by_label": "Filter:",
-      "filter_button": "Filter",
+      "filter_and_operator_subtitle": "Përputhi të gjitha",
+      "apply": "Apliko",
+      "clear": "Pastro",
+      "clear_all": "Hiqi të gjitha",
+      "from": "Nga",
+      "filter_and_sort": "Filtro dhe rendit",
+      "filter_by_label": "Filtro:",
+      "filter_button": "Filtro",
       "filters_selected": {
-        "one": "{{ count }} selected",
-        "other": "{{ count }} selected"
+        "one": "{{ count }} zgjedhur",
+        "other": "{{ count }} zgjedhur"
       },
-      "filter_selected_accessibility": "{{ type }} ({{ count }} filters selected)",
-      "show_more": "Show more",
-      "show_less": "Show less",
-      "max_price": "The highest price is {{ price }}",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filtra të zgjedhur)",
+      "show_more": "Shfaq më shumë",
+      "show_less": "Shfaq më pak",
+      "max_price": "Çmimi më i lartë është {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} of {{ count }} product",
-        "other": "{{ product_count }} of {{ count }} products"
+        "one": "{{ product_count }} nga {{ count }} produkt",
+        "other": "{{ product_count }} nga {{ count }} produkte"
       },
       "product_count_simple": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} products"
+        "one": "{{ count }} produkt",
+        "other": "{{ count }} produkte"
       },
-      "reset": "Reset",
-      "sort_button": "Sort",
-      "sort_by_label": "Sort by:",
-      "to": "To",
-      "clear_filter": "Remove filter"
+      "reset": "Rivendos",
+      "sort_button": "Rendit",
+      "sort_by_label": "Rendit sipas:",
+      "to": "Deri",
+      "clear_filter": "Hiq filtrin"
     }
   },
   "templates": {
     "search": {
-      "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
-      "page": "Page",
-      "products": "Products",
+      "no_results": "Nuk u gjetën rezultate për “{{ terms }}”. Kontrolloni shkrimin ose provoni një fjalë tjetër.",
+      "page": "Faqe",
+      "products": "Produkte",
       "results_pages_with_count": {
-        "one": "{{ count }} page",
-        "other": "{{ count }} pages"
+        "one": "{{ count }} faqe",
+        "other": "{{ count }} faqe"
       },
       "results_suggestions_with_count": {
-        "one": "{{ count }} suggestion",
-        "other": "{{ count }} suggestions"
+        "one": "{{ count }} sugjerim",
+        "other": "{{ count }} sugjerime"
       },
       "results_products_with_count": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} products"
+        "one": "{{ count }} produkt",
+        "other": "{{ count }} produkte"
       },
       "results_with_count": {
-        "one": "{{ count }} result",
-        "other": "{{ count }} results"
+        "one": "{{ count }} rezultat",
+        "other": "{{ count }} rezultate"
       },
       "results_with_count_and_term": {
-        "one": "{{ count }} result found for “{{ terms }}”",
-        "other": "{{ count }} results found for “{{ terms }}”"
+        "one": "{{ count }} rezultat u gjet për “{{ terms }}”",
+        "other": "{{ count }} rezultate u gjetën për “{{ terms }}”"
       },
-      "title": "Search results",
-      "search_for": "Search for “{{ terms }}”",
-      "suggestions": "Suggestions",
-      "pages": "Pages"
+      "title": "Rezultatet e kërkimit",
+      "search_for": "Kërko “{{ terms }}”",
+      "suggestions": "Sugjerime",
+      "pages": "Faqe"
     },
     "cart": {
       "cart": "Cart"
@@ -333,16 +333,16 @@
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection"
+      "view_all": "Shiko të gjitha",
+      "view_all_label": "Shiko të gjitha produktet në koleksionin {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "View all"
+      "view_all": "Shiko të gjitha"
     },
     "collection_template": {
-      "empty": "No products found",
-      "title": "Collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
+      "empty": "Nuk u gjetën produkte",
+      "title": "Koleksioni",
+      "use_fewer_filters_html": "Përdorni më pak filtra ose <a class=\"{{ class }}\" href=\"{{ link }}\">hiqini të gjitha</a>"
     },
     "video": {
       "load_video": "Load video: {{ description }}"
@@ -390,7 +390,7 @@
     "language_label": "Language",
     "update_language": "Update language",
     "update_country": "Update country/region",
-    "search": "Search",
+    "search": "Kërko",
     "popular_countries_regions": "Popular countries/regions",
     "country_results_count": "{{ count }} countries/regions found"
   },

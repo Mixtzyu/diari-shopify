@@ -172,7 +172,7 @@
                           selected="selected"
                         {% endif %}
                       >
-                        {{ option.name | escape }}
+                        {% render 'diari-label', text: option.name, sort_value: option.value %}
                       </option>
                     {%- endfor -%}
                   </select>
