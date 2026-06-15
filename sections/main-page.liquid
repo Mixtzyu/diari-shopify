@@ -14,14 +14,121 @@
   }
 {%- endstyle -%}
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-    {{ page.title | escape }}
-  </h1>
-  <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {{ page.content }}
+{%- assign page_title_handle = page.title | handleize -%}
+{%- assign is_diari_about_page = false -%}
+{%- assign is_diari_contact_page = false -%}
+{%- if page.handle == 'rreth-nesh' or page.handle == 'about-us' or page.handle == 'about' or page_title_handle == 'rreth-nesh' -%}
+  {%- assign is_diari_about_page = true -%}
+{%- endif -%}
+{%- if page.handle == 'contact' or page.handle == 'kontakto' or page_title_handle == 'contact' or page_title_handle == 'kontakto' -%}
+  {%- assign is_diari_contact_page = true -%}
+{%- endif -%}
+
+{%- if is_diari_about_page -%}
+  <div class="diari-about page-width section-{{ section.id }}-padding">
+    <div class="diari-about__hero{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <p class="diari-about__eyebrow">Rreth Nesh</p>
+      <h1 class="diari-about__title">Mirë se vini në Diari 1€</h1>
+      <p class="diari-about__lead">
+        Diari 1€ është një dyqan i dedikuar për t'ju ofruar produkte praktike dhe të përballueshme për përditshmërinë tuaj.
+      </p>
+    </div>
+
+    <div class="diari-about__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="diari-about__panel">
+        <p>
+          Tek ne mund të gjeni një gamë të gjerë artikujsh për shtëpinë, kuzhinën, tekstilin, kozmetikën, lodrat, veglat e punës, artikujt shkollorë, bizhuteritë dhe shumë produkte të tjera.
+        </p>
+        <p>
+          Qëllimi ynë është t'u ofrojmë klientëve tanë shumëllojshmëri, cilësi dhe çmime të volitshme në një vend të vetëm.
+        </p>
+      </div>
+
+      <div class="diari-about__cards" aria-label="Vlerat e Diari 1€">
+        <div class="diari-about__card">
+          <span class="diari-about__card-number">01</span>
+          <h2>Praktike</h2>
+          <p>Produkte të dobishme për shtëpinë, familjen, shkollën dhe punën.</p>
+        </div>
+        <div class="diari-about__card">
+          <span class="diari-about__card-number">02</span>
+          <h2>Të përballueshme</h2>
+          <p>Zgjedhje të thjeshta dhe çmime të volitshme për nevojat e përditshme.</p>
+        </div>
+        <div class="diari-about__card">
+          <span class="diari-about__card-number">03</span>
+          <h2>Shumëllojshmëri</h2>
+          <p>Kategori të ndryshme të organizuara në një vend për shfletim më të lehtë.</p>
+        </div>
+      </div>
+
+      <div class="diari-about__thanks">
+        <p>Faleminderit që zgjidhni Diari 1€. Ju mirëpresim çdo ditë!</p>
+      </div>
+    </div>
   </div>
-</div>
+{%- elsif is_diari_contact_page -%}
+  <div class="diari-contact page-width section-{{ section.id }}-padding">
+    <div class="diari-contact__hero{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <p class="diari-contact__eyebrow">Kontakto</p>
+      <h1 class="diari-contact__title">Na kontaktoni në Diari 1€</h1>
+      <p class="diari-contact__lead">
+        Për pyetje rreth produkteve, disponueshmërisë ose detajeve të katalogut, mund të na shkruani direkt në kanalet tona zyrtare.
+      </p>
+    </div>
+
+    <div class="diari-contact__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <div class="diari-contact__intro">
+        <h2>Na kontaktoni në:</h2>
+        <p>Zgjidhni mënyrën më të lehtë për ju dhe ekipi ynë do t'ju përgjigjet sa më shpejt.</p>
+      </div>
+
+      <div class="diari-contact__cards" aria-label="Mënyrat e kontaktit">
+        <a class="diari-contact__card" href="tel:+38349565436">
+          <span class="diari-contact__icon" aria-hidden="true">☎</span>
+          <span>
+            <strong>Telefon</strong>
+            <small>+383 49 565 436</small>
+          </span>
+        </a>
+        <a class="diari-contact__card" href="https://www.instagram.com/diari1eurolipjan/" target="_blank" rel="noopener noreferrer">
+          <span class="diari-contact__icon" aria-hidden="true">IG</span>
+          <span>
+            <strong>Instagram</strong>
+            <small>@diari1eurolipjan</small>
+          </span>
+        </a>
+        <a class="diari-contact__card" href="https://www.facebook.com/profile.php?id=61590728343225" target="_blank" rel="noopener noreferrer">
+          <span class="diari-contact__icon" aria-hidden="true">f</span>
+          <span>
+            <strong>Facebook</strong>
+            <small>Diari 1€</small>
+          </span>
+        </a>
+        <div class="diari-contact__card diari-contact__card--soon">
+          <span class="diari-contact__icon" aria-hidden="true">TT</span>
+          <span>
+            <strong>TikTok</strong>
+            <small>Së shpejti</small>
+          </span>
+        </div>
+      </div>
+
+      <div class="diari-contact__note">
+        <p>Ju mirëpresim për çdo pyetje rreth katalogut, kategorive dhe produkteve të Diari 1€.</p>
+      </div>
+    </div>
+  </div>
+{%- else -%}
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      {{ page.title | escape }}
+    </h1>
+    <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {{ page.content }}
+    </div>
+  </div>
+{%- endif -%}
 
 {% schema %}
 {

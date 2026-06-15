@@ -240,4 +240,10 @@ details[open].menu-opening > .menu-drawer__submenu {
     filter: none !important;
     transition: none !important;
   }
+
+  .menu-drawer__close-button,
+  .menu-drawer__account,
+  .menu-drawer .list-social__link {
+    font-size: 1.6rem;
+  }
 }

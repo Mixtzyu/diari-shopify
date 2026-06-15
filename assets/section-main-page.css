@@ -21,3 +21,436 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.diari-about {
+  max-width: 118rem;
+}
+
+.diari-about__hero {
+  position: relative;
+  overflow: hidden;
+  padding: 3.2rem 2.2rem;
+  border: 0.1rem solid rgba(18, 18, 18, 0.08);
+  border-radius: 0.8rem;
+  background:
+    linear-gradient(135deg, rgba(204, 0, 0, 0.09), rgba(255, 255, 255, 0) 42%),
+    rgb(var(--color-background));
+  box-shadow: 0 1.2rem 3rem rgba(18, 18, 18, 0.06);
+}
+
+.diari-about__hero::after {
+  content: "";
+  position: absolute;
+  right: -4rem;
+  bottom: -4rem;
+  width: 12rem;
+  height: 12rem;
+  border: 1.8rem solid rgba(204, 0, 0, 0.08);
+  border-radius: 50%;
+}
+
+.diari-about__eyebrow {
+  margin: 0 0 1rem;
+  color: rgb(var(--diari-red));
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.diari-about__title {
+  position: relative;
+  z-index: 1;
+  max-width: 78rem;
+  margin: 0;
+}
+
+.diari-about__lead {
+  position: relative;
+  z-index: 1;
+  max-width: 76rem;
+  margin: 1.6rem 0 0;
+  color: rgba(18, 18, 18, 0.78);
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.diari-about__content {
+  margin-top: 2rem;
+}
+
+.diari-about__panel {
+  padding: 2.2rem;
+  border-left: 0.4rem solid rgb(var(--diari-red));
+  border-radius: 0 0.8rem 0.8rem 0;
+  background: rgba(204, 0, 0, 0.04);
+}
+
+.diari-about__panel p,
+.diari-about__card p,
+.diari-about__thanks p {
+  margin: 0;
+  color: rgba(18, 18, 18, 0.76);
+  line-height: 1.65;
+}
+
+.diari-about__panel p + p {
+  margin-top: 1.2rem;
+}
+
+.diari-about__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.diari-about__card {
+  padding: 2.2rem;
+  border: 0.1rem solid rgba(18, 18, 18, 0.08);
+  border-radius: 0.8rem;
+  background: #fff;
+  box-shadow: 0 0.8rem 2.2rem rgba(18, 18, 18, 0.045);
+  animation: diari-about-card-in 560ms ease both;
+}
+
+.diari-about__card:nth-child(2) {
+  animation-delay: 90ms;
+}
+
+.diari-about__card:nth-child(3) {
+  animation-delay: 180ms;
+}
+
+.diari-about__card-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.8rem;
+  min-height: 3.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 999rem;
+  background: rgba(204, 0, 0, 0.1);
+  color: rgb(var(--diari-red));
+  font-weight: 700;
+}
+
+.diari-about__card h2 {
+  margin: 0 0 0.8rem;
+  font-size: 2rem;
+}
+
+.diari-about__thanks {
+  margin-top: 2rem;
+  padding: 2.2rem;
+  border-radius: 0.8rem;
+  background: rgb(var(--diari-red));
+  text-align: center;
+}
+
+.diari-about__thanks p {
+  color: #fff;
+  font-weight: 700;
+}
+
+@keyframes diari-about-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .diari-about__hero {
+    padding: 5rem;
+  }
+
+  .diari-about__content {
+    margin-top: 2.8rem;
+  }
+
+  .diari-about__panel {
+    padding: 3rem;
+  }
+
+  .diari-about__cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.8rem;
+    margin-top: 2.8rem;
+  }
+
+  .diari-about__card {
+    padding: 2.6rem;
+  }
+
+  .diari-about__thanks {
+    margin-top: 2.8rem;
+    padding: 2.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .diari-about__card {
+    animation: none;
+  }
+}
+
+.diari-contact {
+  max-width: 118rem;
+}
+
+.diari-contact__hero {
+  position: relative;
+  overflow: hidden;
+  padding: 3.2rem 2.2rem;
+  border: 0.1rem solid rgba(18, 18, 18, 0.08);
+  border-radius: 0.8rem;
+  background:
+    linear-gradient(135deg, rgba(204, 0, 0, 0.1), rgba(255, 255, 255, 0) 44%),
+    rgb(var(--color-background));
+  box-shadow: 0 1.2rem 3rem rgba(18, 18, 18, 0.06);
+}
+
+.diari-contact__hero::after {
+  content: "";
+  position: absolute;
+  right: -4rem;
+  bottom: -4rem;
+  width: 12rem;
+  height: 12rem;
+  border: 1.8rem solid rgba(204, 0, 0, 0.08);
+  border-radius: 50%;
+}
+
+.diari-contact__eyebrow {
+  margin: 0 0 1rem;
+  color: rgb(var(--diari-red));
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.diari-contact__title {
+  position: relative;
+  z-index: 1;
+  max-width: 78rem;
+  margin: 0;
+}
+
+.diari-contact__lead {
+  position: relative;
+  z-index: 1;
+  max-width: 74rem;
+  margin: 1.6rem 0 0;
+  color: rgba(18, 18, 18, 0.78);
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.diari-contact__content {
+  margin-top: 2rem;
+}
+
+.diari-contact__intro {
+  padding: 2.2rem;
+  border-left: 0.4rem solid rgb(var(--diari-red));
+  border-radius: 0 0.8rem 0.8rem 0;
+  background: rgba(204, 0, 0, 0.04);
+}
+
+.diari-contact__intro h2 {
+  margin: 0 0 0.8rem;
+}
+
+.diari-contact__intro p,
+.diari-contact__note p {
+  margin: 0;
+  color: rgba(18, 18, 18, 0.76);
+  line-height: 1.65;
+}
+
+.diari-contact__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.diari-contact__card {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  min-height: 10rem;
+  padding: 2rem;
+  border: 0.1rem solid rgba(18, 18, 18, 0.08);
+  border-radius: 0.8rem;
+  background: #fff;
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+  box-shadow: 0 0.8rem 2.2rem rgba(18, 18, 18, 0.045);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+  animation: diari-contact-card-in 560ms ease both;
+}
+
+.diari-contact__card:nth-child(2) {
+  animation-delay: 80ms;
+}
+
+.diari-contact__card:nth-child(3) {
+  animation-delay: 160ms;
+}
+
+.diari-contact__card:nth-child(4) {
+  animation-delay: 240ms;
+}
+
+.diari-contact__card[href]:hover {
+  border-color: rgba(204, 0, 0, 0.35);
+  box-shadow: 0 1rem 2.8rem rgba(18, 18, 18, 0.08);
+  transform: translateY(-0.2rem);
+}
+
+.diari-contact__card:focus-visible {
+  outline: 0.2rem solid rgb(var(--diari-red));
+  outline-offset: 0.3rem;
+}
+
+.diari-contact__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 4.6rem;
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 999rem;
+  background: rgba(204, 0, 0, 0.1);
+  color: rgb(var(--diari-red));
+  font-weight: 700;
+}
+
+.diari-contact__card strong,
+.diari-contact__card small {
+  display: block;
+}
+
+.diari-contact__card strong {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+}
+
+.diari-contact__card small {
+  color: rgba(18, 18, 18, 0.68);
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.diari-contact__card--soon {
+  opacity: 0.72;
+}
+
+.diari-contact__note {
+  margin-top: 2rem;
+  padding: 2.2rem;
+  border-radius: 0.8rem;
+  background: rgb(var(--diari-red));
+  text-align: center;
+}
+
+.diari-contact__note p {
+  color: #fff;
+  font-weight: 700;
+}
+
+@keyframes diari-contact-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .diari-contact__hero {
+    padding: 5rem;
+  }
+
+  .diari-contact__content {
+    margin-top: 2.8rem;
+  }
+
+  .diari-contact__intro {
+    padding: 3rem;
+  }
+
+  .diari-contact__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.8rem;
+    margin-top: 2.8rem;
+  }
+
+  .diari-contact__card {
+    padding: 2.4rem;
+  }
+
+  .diari-contact__note {
+    margin-top: 2.8rem;
+    padding: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .diari-contact__cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .diari-contact__card {
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 17rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .diari-about__lead,
+  .diari-contact__lead,
+  .diari-about__panel p,
+  .diari-about__card p,
+  .diari-about__thanks p,
+  .diari-contact__intro p,
+  .diari-contact__note p {
+    font-size: 1.7rem;
+    line-height: 1.62;
+  }
+
+  .diari-about__eyebrow,
+  .diari-contact__eyebrow {
+    font-size: 1.35rem;
+  }
+
+  .diari-about__card h2,
+  .diari-contact__intro h2,
+  .diari-contact__card strong {
+    font-size: 2.05rem;
+  }
+
+  .diari-contact__card small {
+    font-size: 1.58rem;
+    line-height: 1.42;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .diari-contact__card {
+    animation: none;
+    transition: none;
+  }
+}

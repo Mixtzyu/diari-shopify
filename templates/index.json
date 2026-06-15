@@ -51,6 +51,92 @@
         "padding_bottom": 44
       }
     },
+    "store_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gjithçka praktike për përditshmërinë",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diari 1€ sjell produkte të thjeshta, të dobishme dhe të përballueshme për shtëpi, kuzhinë, shkollë, zyrë, fëmijë dhe oborr. Zgjidh kategorinë që të duhet dhe shfleto lehtë produktet tona.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    },
+    "new_products": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "produkte-te-reja",
+        "products_to_show": 12,
+        "title": "Produkte të Reja",
+        "heading_size": "h2",
+        "description": "<p>Zbuloni artikujt më të fundit të shtuar në dyqan.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 40
+      }
+    },
+    "best_sellers": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "me-te-shitura",
+        "products_to_show": 12,
+        "title": "Më të Shitura",
+        "heading_size": "h2",
+        "description": "<p>Produktet që klientët tanë i kërkojnë më shpesh.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 48
+      }
+    },
     "categories": {
       "type": "collection-list",
       "blocks": {
@@ -108,12 +194,6 @@
             "collection": "dekor-shtepi"
           }
         },
-        "oferta": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "oferta"
-          }
-        },
         "produkte_te_reja": {
           "type": "featured_collection",
           "settings": {
@@ -143,7 +223,6 @@
         "shkolle_zyre",
         "bizhuteri_aksesore",
         "dekor_shtepi",
-        "oferta",
         "produkte_te_reja",
         "sezonale",
         "me_te_shitura"
@@ -161,176 +240,6 @@
         "padding_bottom": 40
       }
     },
-    "store_intro": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Gjithçka praktike për përditshmërinë",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Diari 1€ sjell produkte të thjeshta, të dobishme dhe të përballueshme për shtëpi, kuzhinë, shkollë, zyrë, fëmijë dhe oborr. Zgjidh kategorinë që të duhet dhe shfleto lehtë produktet tona.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 32
-      }
-    },
-    "new_products": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "produkte-te-reja",
-        "products_to_show": 8,
-        "title": "Produkte të Reja",
-        "heading_size": "h2",
-        "description": "<p>Zbuloni artikujt më të fundit të shtuar në dyqan.</p>",
-        "show_description": true,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 32
-      }
-    },
-    "offers": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "oferta",
-        "products_to_show": 8,
-        "title": "Oferta",
-        "heading_size": "h2",
-        "description": "<p>Shfletoni produktet me çmime dhe zgjedhje të favorshme.</p>",
-        "show_description": true,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 32
-      }
-    },
-    "best_sellers": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "me-te-shitura",
-        "products_to_show": 8,
-        "title": "Më të Shitura",
-        "heading_size": "h2",
-        "description": "<p>Produktet që klientët tanë i kërkojnë më shpesh.</p>",
-        "show_description": true,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 40
-      }
-    },
-    "trust_info": {
-      "type": "multicolumn",
-      "blocks": {
-        "organized": {
-          "type": "column",
-          "settings": {
-            "image": "",
-            "title": "Kategori të qarta",
-            "text": "<p>Produktet janë të ndara sipas nevojave të përditshme, që t’i gjeni më shpejt.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "affordable": {
-          "type": "column",
-          "settings": {
-            "image": "",
-            "title": "Çmime të përballueshme",
-            "text": "<p>Zgjedhje praktike për familjen, shtëpinë, shkollën dhe punën.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "local": {
-          "type": "column",
-          "settings": {
-            "image": "",
-            "title": "Shërbim i thjeshtë",
-            "text": "<p>Shfletoni katalogun online dhe kontaktoni dyqanin për pyetje ose porosi.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "organized",
-        "affordable",
-        "local"
-      ],
-      "settings": {
-        "title": "Pse Diari 1€?",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "manual_order_note": {
       "type": "rich-text",
       "blocks": {
@@ -344,7 +253,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Ky katalog është krijuar për shfletim të lehtë. Për disponueshmëri, detaje ose porosi, na kontaktoni direkt dhe ne do t’ju ndihmojmë.</p>"
+            "text": "<p>Ky katalog është krijuar për shfletim të lehtë. Për disponueshmëri ose detaje të produkteve, na kontaktoni direkt dhe ne do t’ju ndihmojmë.</p>"
           }
         },
         "button": {
@@ -369,8 +278,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 52
+        "padding_top": 44,
+        "padding_bottom": 56
       }
     }
   },
@@ -378,10 +287,8 @@
     "hero",
     "store_intro",
     "new_products",
-    "offers",
     "best_sellers",
     "categories",
-    "trust_info",
     "manual_order_note"
   ]
 }

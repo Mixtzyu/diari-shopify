@@ -25,6 +25,23 @@
 
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
+{%- if settings.diari_catalog_mode -%}
+  <div class="diari-catalog-cart gradient color-{{ section.settings.color_scheme }} isolate">
+    <div class="page-width section-{{ section.id }}-padding">
+      <div class="diari-catalog-cart__panel">
+        <p class="diari-catalog-cart__eyebrow">Katalog</p>
+        <h1 class="diari-catalog-cart__title">Shporta nuk është aktive për momentin</h1>
+        <p class="diari-catalog-cart__text">
+          Diari 1€ është aktualisht i hapur për shfletim të produkteve. Për detaje ose disponueshmëri, na kontaktoni direkt.
+        </p>
+        <div class="diari-catalog-cart__actions">
+          <a href="{{ routes.all_products_collection_url }}" class="button button--primary">Shiko produktet</a>
+          <a href="/pages/contact" class="button button--secondary">Na kontaktoni</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- else -%}
 <cart-items class="gradient color-{{ section.settings.color_scheme }} isolate{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="page-width">
     <div class="title-wrapper-with-link">
@@ -456,6 +473,7 @@
     </form>
   </div>
 </cart-items>
+{%- endif -%}
 
 {% schema %}
 {

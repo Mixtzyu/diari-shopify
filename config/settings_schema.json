@@ -8,6 +8,18 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
+    "name": "Diari catalog mode",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "diari_catalog_mode",
+        "label": "Catalog mode / showcase only",
+        "info": "Hide cart, account, quantity, and purchase actions while keeping Shopify backend functionality available.",
+        "default": true
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {

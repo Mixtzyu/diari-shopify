@@ -1255,3 +1255,25 @@ input.mobile-facets__checkbox {
     padding: 0 1rem 1rem;
   }
 }
+
+@media screen and (max-width: 749px) {
+  .mobile-facets__open,
+  .mobile-facets__heading,
+  .mobile-facets__summary,
+  .mobile-facets__label,
+  .mobile-facets__sort label,
+  .mobile-facets__sort .select__select,
+  .facets__summary,
+  .facets__header,
+  .facets__label,
+  .product-count__text {
+    font-size: 1.6rem;
+  }
+
+  .mobile-facets__count,
+  .facets__and-helptext,
+  span.active-facets__button-inner,
+  .active-facets__button-wrapper * {
+    font-size: 1.35rem;
+  }
+}

@@ -223,3 +223,20 @@ predictive-search[loading] .predictive-search__results-groups-wrapper ~ .predict
   object-fit: contain;
   font-family: 'object-fit: contain';
 }
+
+@media screen and (max-width: 749px) {
+  .predictive-search__heading,
+  .predictive-search__item,
+  .predictive-search__item-heading,
+  .predictive-search__item--term {
+    font-size: 1.6rem;
+  }
+
+  .predictive-search__item-vendor {
+    font-size: 1.25rem;
+  }
+
+  .predictive-search__item .price {
+    font-size: 1.45rem;
+  }
+}

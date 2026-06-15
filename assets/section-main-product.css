@@ -193,6 +193,25 @@ product-info {
   margin-bottom: 1rem;
 }
 
+.diari-catalog-product-note {
+  max-width: 44rem;
+  padding: 2rem;
+  border: 0.1rem solid rgba(18, 18, 18, 0.08);
+  border-left: 0.4rem solid rgb(var(--diari-red));
+  border-radius: 0.8rem;
+  background: rgba(204, 0, 0, 0.04);
+}
+
+.diari-catalog-product-note p {
+  margin: 0 0 1.6rem;
+  color: rgba(18, 18, 18, 0.78);
+  line-height: 1.6;
+}
+
+.diari-catalog-product-note .button {
+  min-width: 18rem;
+}
+
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
 .product-form__submit[disabled] + .shopify-payment-button .shopify-payment-button__button[disabled] {
   cursor: not-allowed;
@@ -416,6 +435,23 @@ a.product__text {
 
   .product--mobile-columns .product__media-item {
     width: calc(50% - 1.5rem - var(--grid-mobile-horizontal-spacing));
+  }
+
+  .product__info-container .product__description,
+  .product__accordion .accordion__content,
+  .diari-catalog-product-note p {
+    font-size: 1.7rem;
+    line-height: 1.62;
+  }
+
+  .product-form__input .form__label,
+  .product-form__error-message-wrapper:not([hidden]),
+  .shopify-payment-button__more-options {
+    font-size: 1.55rem;
+  }
+
+  .diari-catalog-product-note .button {
+    font-size: 1.6rem;
   }
 }
 

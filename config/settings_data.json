@@ -11,6 +11,7 @@
   "current": "Dawn",
   "presets": {
     "Dawn": {
+      "diari_catalog_mode": true,
       "logo_width": 90,
       "color_schemes": {
         "scheme-1": {

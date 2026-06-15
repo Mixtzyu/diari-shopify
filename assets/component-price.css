@@ -119,3 +119,13 @@
   font-weight: 800;
   letter-spacing: 0.02rem;
 }
+
+@media screen and (max-width: 749px) {
+  .card-information .price {
+    font-size: 1.85rem;
+  }
+
+  .card-information .price--on-sale .price-item--regular {
+    font-size: 1.5rem;
+  }
+}

@@ -66,12 +66,6 @@
             "collection": "dekor-shtepi"
           }
         },
-        "oferta": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "oferta"
-          }
-        },
         "produkte_te_reja": {
           "type": "featured_collection",
           "settings": {
@@ -101,7 +95,6 @@
         "shkolle_zyre",
         "bizhuteri_aksesore",
         "dekor_shtepi",
-        "oferta",
         "produkte_te_reja",
         "sezonale",
         "me_te_shitura"

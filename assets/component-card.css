@@ -694,13 +694,29 @@
   }
 }
 
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .product-card-wrapper .card__information,
+  .product-card-wrapper .card--standard > .card__content .card__information {
+    padding: 1.3rem 1.2rem 1.5rem;
+  }
+
+  .collection-card-wrapper .card__information,
+  .collection-card-wrapper .card--standard > .card__content .card__information {
+    padding: 1.4rem 1.25rem 1.55rem;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .product-card-wrapper .card__heading,
   .product-card-wrapper .card__heading.h5 {
-    font-size: 1.52rem;
+    font-size: 1.75rem;
   }
 
   .collection-card-wrapper .card__heading {
-    font-size: 1.58rem;
+    font-size: 1.82rem;
+  }
+
+  .product-card-wrapper .card-information {
+    font-size: 1.65rem;
   }
 }
