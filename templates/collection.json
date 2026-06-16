@@ -17,11 +17,150 @@
         "color_scheme": "scheme-1"
       }
     },
+    "kozmetike_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "makeup": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "makeup"
+          }
+        },
+        "kujdes_fytyren": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kozmetike-kujdes-per-fytyren"
+          }
+        },
+        "kujdes_floket": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kujdes-per-floket"
+          }
+        },
+        "kujdes_bebe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kujdes-per-bebe"
+          }
+        }
+      },
+      "block_order": [
+        "makeup",
+        "kujdes_fytyren",
+        "kujdes_floket",
+        "kujdes_bebe"
+      ],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "kozmetike",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 44
+      }
+    },
+    "shtepi_kuzhine_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "ene_gatimi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ene-gatimi"
+          }
+        },
+        "tava_tepsi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tava-tepsi"
+          }
+        },
+        "pjata_tasa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pjata-tasa"
+          }
+        },
+        "gota_filxhane": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gota-filxhane"
+          }
+        },
+        "takeme": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "takeme"
+          }
+        },
+        "shishe_termose": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shishe-termose"
+          }
+        },
+        "organizim_kuzhine": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "organizim-kuzhine"
+          }
+        },
+        "aksesore_kuzhine": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aksesore-kuzhine"
+          }
+        },
+        "produkte_pastrimi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "produkte-pastrimi"
+          }
+        },
+        "produkte_banjo": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "produkte-per-banjo"
+          }
+        }
+      },
+      "block_order": [
+        "ene_gatimi",
+        "tava_tepsi",
+        "pjata_tasa",
+        "gota_filxhane",
+        "takeme",
+        "shishe_termose",
+        "organizim_kuzhine",
+        "aksesore_kuzhine",
+        "produkte_pastrimi",
+        "produkte_banjo"
+      ],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "shtepi-kuzhine",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 44
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "hide_on_collection_handles": "kozmetike, shtepi-kuzhine",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
@@ -40,6 +179,8 @@
   },
   "order": [
     "banner",
+    "kozmetike_subcategories",
+    "shtepi_kuzhine_subcategories",
     "product-grid"
   ]
 }

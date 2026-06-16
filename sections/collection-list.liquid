@@ -19,11 +19,17 @@
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
   assign show_mobile_slider = false
+  assign show_on_collection_handle = section.settings.show_on_collection_handle | strip
+  assign render_collection_list = true
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
   endif
+  if show_on_collection_handle != blank and collection.handle != show_on_collection_handle
+    assign render_collection_list = false
+  endif
 -%}
 
+{%- if render_collection_list -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.title == blank -%}
@@ -132,6 +138,7 @@
     {%- endif -%}
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {
@@ -176,6 +183,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "show_on_collection_handle",
+      "label": "Show only on collection handle",
+      "info": "Optional. Leave blank to show this section everywhere it is added."
     },
     {
       "type": "header",

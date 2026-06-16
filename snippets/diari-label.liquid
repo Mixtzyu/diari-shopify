@@ -6,6 +6,8 @@
     case sort_value
       when 'manual'
         echo 'E rekomanduar'
+      when 'most-relevant'
+        echo 'Më relevante'
       when 'best-selling'
         echo 'Më të shiturat'
       when 'title-ascending'
@@ -27,6 +29,12 @@
     endcase
   else
     case normalized_label
+      when 'most relevant'
+        echo 'Më relevante'
+      when 'relevance'
+        echo 'Më relevante'
+      when 'featured'
+        echo 'Më relevante'
       when 'availability'
         echo 'Disponueshmëria'
       when 'price'

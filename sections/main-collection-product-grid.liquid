@@ -36,6 +36,18 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign render_product_grid = true
+  assign hidden_collection_handles = section.settings.hide_on_collection_handles | split: ','
+  for hidden_collection_handle in hidden_collection_handles
+    assign trimmed_hidden_collection_handle = hidden_collection_handle | strip
+    if trimmed_hidden_collection_handle != blank and collection.handle == trimmed_hidden_collection_handle
+      assign render_product_grid = false
+    endif
+  endfor
+-%}
+
+{%- if render_product_grid -%}
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -194,6 +206,7 @@
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
 </div>
+{%- endif -%}
 
 {% schema %}
 {
@@ -233,7 +246,13 @@
           "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
         }
       ]
-    },    
+    },
+    {
+      "type": "text",
+      "id": "hide_on_collection_handles",
+      "label": "Hide on collection handles",
+      "info": "Optional. Add comma-separated collection handles where this product grid should not render."
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

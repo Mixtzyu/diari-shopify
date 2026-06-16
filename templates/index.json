@@ -158,6 +158,12 @@
             "collection": "tekstil"
           }
         },
+        "kepuce_te_mbathura": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kepuce-te-mbathura"
+          }
+        },
         "lodra": {
           "type": "featured_collection",
           "settings": {
@@ -217,6 +223,7 @@
         "kozmetike",
         "shtepi_kuzhine",
         "tekstil",
+        "kepuce_te_mbathura",
         "lodra",
         "vegla_pune",
         "kopsht_oborr",
