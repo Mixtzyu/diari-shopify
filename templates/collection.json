@@ -155,12 +155,74 @@
         "padding_bottom": 44
       }
     },
+    "kepuce_mbathura_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "sandale_femra": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sandale-per-femra"
+          }
+        },
+        "sandale_meshkuj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sandale-per-meshkuj"
+          }
+        },
+        "shapka": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shapka"
+          }
+        },
+        "papuce": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "papuce"
+          }
+        },
+        "atlete": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "atlete"
+          }
+        },
+        "mbathura_femije": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "te-mbathura-per-femije"
+          }
+        }
+      },
+      "block_order": [
+        "sandale_femra",
+        "sandale_meshkuj",
+        "shapka",
+        "papuce",
+        "atlete",
+        "mbathura_femije"
+      ],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "kepuce-te-mbathura",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 44
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "hide_on_collection_handles": "kozmetike, shtepi-kuzhine",
+        "hide_on_collection_handles": "kozmetike, shtepi-kuzhine, kepuce-te-mbathura",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
@@ -181,6 +243,7 @@
     "banner",
     "kozmetike_subcategories",
     "shtepi_kuzhine_subcategories",
+    "kepuce_mbathura_subcategories",
     "product-grid"
   ]
 }
