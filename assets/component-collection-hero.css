@@ -77,6 +77,56 @@
     rgba(var(--color-shadow), var(--media-shadow-opacity));
 }
 
+/* Diari catalog collection heading */
+.collection-hero:not(.collection-hero--with-image) {
+  border-bottom: 0.1rem solid rgba(18, 18, 18, 0.07);
+  background: var(--diari-soft, #f7f7f7);
+}
+
+.collection-hero:not(.collection-hero--with-image) .collection-hero__inner {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.collection-hero:not(.collection-hero--with-image) .collection-hero__title {
+  position: relative;
+  margin: 0;
+  padding-left: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.collection-hero:not(.collection-hero--with-image) .collection-hero__title::before {
+  content: '';
+  position: absolute;
+  top: 0.18em;
+  bottom: 0.18em;
+  left: 0;
+  width: 0.4rem;
+  border-radius: 0.2rem;
+  background: rgb(var(--diari-red, 204, 0, 0));
+}
+
+.collection-hero:not(.collection-hero--with-image) .collection-hero__description {
+  max-width: 76rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.72);
+  font-size: 1.6rem;
+  line-height: 1.55;
+}
+
+@media screen and (max-width: 749px) {
+  .collection-hero:not(.collection-hero--with-image) .collection-hero__inner {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .collection-hero:not(.collection-hero--with-image) .collection-hero__title {
+    padding-left: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .collection-hero__image-container {
     height: 20rem;

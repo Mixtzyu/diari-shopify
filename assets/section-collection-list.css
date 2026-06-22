@@ -94,3 +94,92 @@
     row-gap: 1.6rem;
   }
 }
+
+/* Diari parent-category subcategory grids */
+#MainContent > .shopify-section[id$='__kozmetike_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__shtepi_kuzhine_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__kepuce_mbathura_subcategories'] .title-wrapper-with-link {
+  position: relative;
+  margin-bottom: 1.8rem;
+  padding-left: 1.6rem;
+}
+
+#MainContent > .shopify-section[id$='__dekor_shtepi_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__bizhuteri_aksesore_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__lodra_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__shkolle_zyre_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__tekstil_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__vegla_pune_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__kopsht_oborr_subcategories'] .title-wrapper-with-link,
+#MainContent > .shopify-section[id$='__sezonale_subcategories'] .title-wrapper-with-link {
+  position: relative;
+  margin-bottom: 1.8rem;
+  padding-left: 1.6rem;
+}
+
+#MainContent > .shopify-section[id$='__dekor_shtepi_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__bizhuteri_aksesore_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__lodra_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__shkolle_zyre_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__tekstil_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__vegla_pune_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__kopsht_oborr_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__sezonale_subcategories'] .title-wrapper-with-link::before {
+  content: '';
+  position: absolute;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  left: 0;
+  width: 0.4rem;
+  border-radius: 0.2rem;
+  background: rgb(var(--diari-red, 204, 0, 0));
+}
+
+#MainContent > .shopify-section[id$='__dekor_shtepi_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__bizhuteri_aksesore_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__lodra_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__shkolle_zyre_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__tekstil_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__vegla_pune_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__kopsht_oborr_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__sezonale_subcategories'] .collection-list {
+  row-gap: 1.6rem;
+}
+
+#MainContent > .shopify-section[id$='__kozmetike_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__shtepi_kuzhine_subcategories'] .title-wrapper-with-link::before,
+#MainContent > .shopify-section[id$='__kepuce_mbathura_subcategories'] .title-wrapper-with-link::before {
+  content: '';
+  position: absolute;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  left: 0;
+  width: 0.4rem;
+  border-radius: 0.2rem;
+  background: rgb(var(--diari-red, 204, 0, 0));
+}
+
+#MainContent > .shopify-section[id$='__kozmetike_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__shtepi_kuzhine_subcategories'] .collection-list,
+#MainContent > .shopify-section[id$='__kepuce_mbathura_subcategories'] .collection-list {
+  row-gap: 1.6rem;
+}
+
+@media screen and (max-width: 749px) {
+  #MainContent > .shopify-section[id$='__kozmetike_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__shtepi_kuzhine_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__kepuce_mbathura_subcategories'] .title-wrapper-with-link {
+    padding-left: 1.3rem;
+  }
+
+  #MainContent > .shopify-section[id$='__dekor_shtepi_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__bizhuteri_aksesore_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__lodra_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__shkolle_zyre_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__tekstil_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__vegla_pune_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__kopsht_oborr_subcategories'] .title-wrapper-with-link,
+  #MainContent > .shopify-section[id$='__sezonale_subcategories'] .title-wrapper-with-link {
+    padding-left: 1.3rem;
+  }
+}

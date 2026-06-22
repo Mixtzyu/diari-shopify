@@ -61,8 +61,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 44
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "shtepi_kuzhine_subcategories": {
@@ -146,13 +146,13 @@
         "heading_size": "h2",
         "show_on_collection_handle": "shtepi-kuzhine",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 44
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "kepuce_mbathura_subcategories": {
@@ -208,13 +208,223 @@
         "heading_size": "h2",
         "show_on_collection_handle": "kepuce-te-mbathura",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 44
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "dekor_shtepi_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "korniza_fotografish": { "type": "featured_collection", "settings": { "collection": "korniza-fotografish" } },
+        "pasqyra_dekorative": { "type": "featured_collection", "settings": { "collection": "pasqyra-dekorative" } },
+        "dekor_tavoline": { "type": "featured_collection", "settings": { "collection": "dekor-tavoline" } },
+        "vazo_lule": { "type": "featured_collection", "settings": { "collection": "vazo-lule-artificiale" } },
+        "qirinj": { "type": "featured_collection", "settings": { "collection": "qirinj-mbajtese-qirinjsh" } },
+        "dekor_muri": { "type": "featured_collection", "settings": { "collection": "dekor-muri" } },
+        "ora_muri": { "type": "featured_collection", "settings": { "collection": "ora-muri" } },
+        "organizues_dekorative": { "type": "featured_collection", "settings": { "collection": "organizues-dekorative" } }
+      },
+      "block_order": ["korniza_fotografish", "pasqyra_dekorative", "dekor_tavoline", "vazo_lule", "qirinj", "dekor_muri", "ora_muri", "organizues_dekorative"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "dekor-shtepi",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "bizhuteri_aksesore_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "vathe": { "type": "featured_collection", "settings": { "collection": "vathe" } },
+        "qafore": { "type": "featured_collection", "settings": { "collection": "qafore" } },
+        "byzylyke": { "type": "featured_collection", "settings": { "collection": "byzylyke" } },
+        "unaza": { "type": "featured_collection", "settings": { "collection": "unaza" } },
+        "ora": { "type": "featured_collection", "settings": { "collection": "ora" } },
+        "kuleta": { "type": "featured_collection", "settings": { "collection": "kuleta" } },
+        "canta": { "type": "featured_collection", "settings": { "collection": "canta" } },
+        "syze": { "type": "featured_collection", "settings": { "collection": "syze" } }
+      },
+      "block_order": ["vathe", "qafore", "byzylyke", "unaza", "ora", "kuleta", "canta", "syze"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "bizhuteri-aksesore",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "lodra_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "kukulla": { "type": "featured_collection", "settings": { "collection": "kukulla" } },
+        "makina_lodre": { "type": "featured_collection", "settings": { "collection": "makina-lodre" } },
+        "lodra_edukative": { "type": "featured_collection", "settings": { "collection": "lodra-edukative" } },
+        "puzzle": { "type": "featured_collection", "settings": { "collection": "puzzle" } },
+        "lodra_kreative": { "type": "featured_collection", "settings": { "collection": "lodra-kreative" } },
+        "lodra_foshnje": { "type": "featured_collection", "settings": { "collection": "lodra-per-foshnje" } },
+        "topa_sport": { "type": "featured_collection", "settings": { "collection": "topa-sport" } },
+        "lodra_verore": { "type": "featured_collection", "settings": { "collection": "lodra-verore" } }
+      },
+      "block_order": ["kukulla", "makina_lodre", "lodra_edukative", "puzzle", "lodra_kreative", "lodra_foshnje", "topa_sport", "lodra_verore"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "lodra",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "shkolle_zyre_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "fletore": { "type": "featured_collection", "settings": { "collection": "fletore" } },
+        "stilolapsa_lapsa": { "type": "featured_collection", "settings": { "collection": "stilolapsa-lapsa" } },
+        "ngjyra_vizatim": { "type": "featured_collection", "settings": { "collection": "ngjyra-vizatim" } },
+        "dosje_organizim": { "type": "featured_collection", "settings": { "collection": "dosje-organizim" } },
+        "aksesore_zyre": { "type": "featured_collection", "settings": { "collection": "aksesore-zyre" } },
+        "canta_shkolle": { "type": "featured_collection", "settings": { "collection": "canta-shkolle" } },
+        "artizanat": { "type": "featured_collection", "settings": { "collection": "produkte-per-artizanat" } }
+      },
+      "block_order": ["fletore", "stilolapsa_lapsa", "ngjyra_vizatim", "dosje_organizim", "aksesore_zyre", "canta_shkolle", "artizanat"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "shkolle-zyre",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "tekstil_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "jasteke": { "type": "featured_collection", "settings": { "collection": "jasteke" } },
+        "mbulesa_tavoline": { "type": "featured_collection", "settings": { "collection": "mbulesa-tavoline" } },
+        "peshqire": { "type": "featured_collection", "settings": { "collection": "peshqire" } },
+        "batanije": { "type": "featured_collection", "settings": { "collection": "batanije" } },
+        "carcafe": { "type": "featured_collection", "settings": { "collection": "carcafe" } },
+        "perde": { "type": "featured_collection", "settings": { "collection": "perde" } },
+        "tekstil_dekorativ": { "type": "featured_collection", "settings": { "collection": "tekstil-dekorativ" } }
+      },
+      "block_order": ["jasteke", "mbulesa_tavoline", "peshqire", "batanije", "carcafe", "perde", "tekstil_dekorativ"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "tekstil",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "vegla_pune_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "vegla_dore": { "type": "featured_collection", "settings": { "collection": "vegla-dore" } },
+        "matje_nivelim": { "type": "featured_collection", "settings": { "collection": "matje-nivelim" } },
+        "vida_fiksues": { "type": "featured_collection", "settings": { "collection": "vida-fiksues" } },
+        "pajisje_pune": { "type": "featured_collection", "settings": { "collection": "pajisje-pune" } },
+        "organizues_veglash": { "type": "featured_collection", "settings": { "collection": "organizues-veglash" } },
+        "aksesore_pune": { "type": "featured_collection", "settings": { "collection": "aksesore-pune" } }
+      },
+      "block_order": ["vegla_dore", "matje_nivelim", "vida_fiksues", "pajisje_pune", "organizues_veglash", "aksesore_pune"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "vegla-pune",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "kopsht_oborr_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "saksi": { "type": "featured_collection", "settings": { "collection": "saksi" } },
+        "dekor_kopshti": { "type": "featured_collection", "settings": { "collection": "dekor-kopshti" } },
+        "vegla_kopshti": { "type": "featured_collection", "settings": { "collection": "vegla-kopshti" } },
+        "ujitje": { "type": "featured_collection", "settings": { "collection": "ujitje" } },
+        "produkte_oborr": { "type": "featured_collection", "settings": { "collection": "produkte-per-oborr" } },
+        "sezonale_jashte": { "type": "featured_collection", "settings": { "collection": "produkte-sezonale-per-jashte" } }
+      },
+      "block_order": ["saksi", "dekor_kopshti", "vegla_kopshti", "ujitje", "produkte_oborr", "sezonale_jashte"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "kopsht-oborr",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "sezonale_subcategories": {
+      "type": "collection-list",
+      "blocks": {
+        "vere": { "type": "featured_collection", "settings": { "collection": "vere" } },
+        "dimer": { "type": "featured_collection", "settings": { "collection": "dimer" } },
+        "festat_fundvitit": { "type": "featured_collection", "settings": { "collection": "festat-e-fundvitit" } },
+        "halloween": { "type": "featured_collection", "settings": { "collection": "halloween" } },
+        "bajram": { "type": "featured_collection", "settings": { "collection": "bajram" } },
+        "shkolla_fillon": { "type": "featured_collection", "settings": { "collection": "shkolla-fillon" } },
+        "produkte_plazhi": { "type": "featured_collection", "settings": { "collection": "produkte-plazhi" } },
+        "produkte_piknik": { "type": "featured_collection", "settings": { "collection": "produkte-per-piknik" } }
+      },
+      "block_order": ["vere", "dimer", "festat_fundvitit", "halloween", "bajram", "shkolla_fillon", "produkte_plazhi", "produkte_piknik"],
+      "settings": {
+        "title": "Zgjidh nënkategorinë",
+        "heading_size": "h2",
+        "show_on_collection_handle": "sezonale",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -222,7 +432,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "hide_on_collection_handles": "kozmetike, shtepi-kuzhine, kepuce-te-mbathura",
+        "hide_on_collection_handles": "kozmetike, shtepi-kuzhine, kepuce-te-mbathura, dekor-shtepi, bizhuteri-aksesore, lodra, shkolle-zyre, tekstil, vegla-pune, kopsht-oborr, sezonale",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
@@ -234,8 +444,8 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 40
       }
     }
   },
@@ -244,6 +454,14 @@
     "kozmetike_subcategories",
     "shtepi_kuzhine_subcategories",
     "kepuce_mbathura_subcategories",
+    "dekor_shtepi_subcategories",
+    "bizhuteri_aksesore_subcategories",
+    "lodra_subcategories",
+    "shkolle_zyre_subcategories",
+    "tekstil_subcategories",
+    "vegla_pune_subcategories",
+    "kopsht_oborr_subcategories",
+    "sezonale_subcategories",
     "product-grid"
   ]
 }
