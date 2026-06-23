@@ -24,6 +24,12 @@
             "collection": "shtepi-kuzhine"
           }
         },
+        "produkte_makinen": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "produkte-per-makinen"
+          }
+        },
         "tekstil": {
           "type": "featured_collection",
           "settings": {
@@ -94,6 +100,7 @@
       "block_order": [
         "kozmetike",
         "shtepi_kuzhine",
+        "produkte_makinen",
         "tekstil",
         "kepuce_te_mbathura",
         "lodra",
