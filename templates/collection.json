@@ -38,6 +38,12 @@
             "collection": "kujdes-per-floket"
           }
         },
+        "kujdes_trupin": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kujdes-per-trupin"
+          }
+        },
         "kujdes_bebe": {
           "type": "featured_collection",
           "settings": {
@@ -49,6 +55,7 @@
         "makeup",
         "kujdes_fytyren",
         "kujdes_floket",
+        "kujdes_trupin",
         "kujdes_bebe"
       ],
       "settings": {
