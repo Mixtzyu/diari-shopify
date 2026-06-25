@@ -332,10 +332,11 @@
         "peshqire": { "type": "featured_collection", "settings": { "collection": "peshqire" } },
         "batanije": { "type": "featured_collection", "settings": { "collection": "batanije" } },
         "carcafe": { "type": "featured_collection", "settings": { "collection": "carcafe" } },
+        "organizim_tekstili": { "type": "featured_collection", "settings": { "collection": "organizim-tekstili" } },
         "perde": { "type": "featured_collection", "settings": { "collection": "perde" } },
         "tekstil_dekorativ": { "type": "featured_collection", "settings": { "collection": "tekstil-dekorativ" } }
       },
-      "block_order": ["jasteke", "mbulesa_tavoline", "peshqire", "batanije", "carcafe", "perde", "tekstil_dekorativ"],
+      "block_order": ["jasteke", "mbulesa_tavoline", "peshqire", "batanije", "carcafe", "organizim_tekstili", "perde", "tekstil_dekorativ"],
       "settings": {
         "title": "Zgjidh nënkategorinë",
         "heading_size": "h2",
