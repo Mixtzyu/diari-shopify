@@ -44,6 +44,12 @@
             "collection": "kujdes-per-trupin"
           }
         },
+        "kujdes_personal": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kujdes-personal"
+          }
+        },
         "kujdes_bebe": {
           "type": "featured_collection",
           "settings": {
@@ -56,6 +62,7 @@
         "kujdes_fytyren",
         "kujdes_floket",
         "kujdes_trupin",
+        "kujdes_personal",
         "kujdes_bebe"
       ],
       "settings": {
