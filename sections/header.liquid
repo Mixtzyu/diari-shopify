@@ -172,7 +172,14 @@
             }}
           </div>
         {%- else -%}
-          <span class="h2">{{ shop.name }}</span>
+          <img
+            src="{{ 'diari-header-logo.webp' | asset_url }}"
+            alt="{{ shop.name | escape }}"
+            class="header__heading-logo motion-reduce diari-header-logo"
+            width="150"
+            height="41"
+            loading="eager"
+          >
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}
@@ -215,7 +222,14 @@
             }}
           </div>
         {%- else -%}
-          <span class="h2">{{ shop.name }}</span>
+          <img
+            src="{{ 'diari-header-logo.webp' | asset_url }}"
+            alt="{{ shop.name | escape }}"
+            class="header__heading-logo motion-reduce diari-header-logo"
+            width="150"
+            height="41"
+            loading="eager"
+          >
         {%- endif -%}
       </a>
       {%- if request.page_type == 'index' -%}

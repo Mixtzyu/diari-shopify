@@ -2461,6 +2461,11 @@ input[type='checkbox'] {
   max-width: 100%;
 }
 
+.diari-header-logo {
+  display: block;
+  width: clamp(12.5rem, 16vw, 15rem);
+}
+
 .header__heading-logo-wrapper {
   width: 100%;
   display: inline-block;
