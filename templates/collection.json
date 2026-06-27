@@ -268,9 +268,10 @@
         "ora": { "type": "featured_collection", "settings": { "collection": "ora" } },
         "kuleta": { "type": "featured_collection", "settings": { "collection": "kuleta" } },
         "canta": { "type": "featured_collection", "settings": { "collection": "canta" } },
-        "syze": { "type": "featured_collection", "settings": { "collection": "syze" } }
+        "syze": { "type": "featured_collection", "settings": { "collection": "syze" } },
+        "aksesore_pergjithshem": { "type": "featured_collection", "settings": { "collection": "aksesore-te-pergjithshem" } }
       },
-      "block_order": ["vathe", "qafore", "byzylyke", "unaza", "ora", "kuleta", "canta", "syze"],
+      "block_order": ["vathe", "qafore", "byzylyke", "unaza", "ora", "kuleta", "canta", "syze", "aksesore_pergjithshem"],
       "settings": {
         "title": "Zgjidh nënkategorinë",
         "heading_size": "h2",
